@@ -13,6 +13,8 @@
 		15D570DC21FA4F86002F8633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15D570DB21FA4F86002F8633 /* Assets.xcassets */; };
 		15D570DF21FA4F86002F8633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D570DD21FA4F86002F8633 /* LaunchScreen.storyboard */; };
 		15D570E221FA4F86002F8633 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D570E121FA4F86002F8633 /* main.m */; };
+		15D570EA21FA6D7C002F8633 /* CatsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D570E921FA6D7C002F8633 /* CatsTableViewCell.m */; };
+		15D570ED21FA70C0002F8633 /* PhotoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D570EC21FA70C0002F8633 /* PhotoData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		15D570DE21FA4F86002F8633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15D570E021FA4F86002F8633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15D570E121FA4F86002F8633 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15D570E821FA6D7C002F8633 /* CatsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatsTableViewCell.h; sourceTree = "<group>"; };
+		15D570E921FA6D7C002F8633 /* CatsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatsTableViewCell.m; sourceTree = "<group>"; };
+		15D570EB21FA70C0002F8633 /* PhotoData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoData.h; sourceTree = "<group>"; };
+		15D570EC21FA70C0002F8633 /* PhotoData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,11 @@
 				15D570D321FA4F83002F8633 /* AppDelegate.m */,
 				15D570D521FA4F83002F8633 /* ViewController.h */,
 				15D570D621FA4F83002F8633 /* ViewController.m */,
+				15D570EB21FA70C0002F8633 /* PhotoData.h */,
+				15D570EC21FA70C0002F8633 /* PhotoData.m */,
 				15D570D821FA4F83002F8633 /* Main.storyboard */,
+				15D570E821FA6D7C002F8633 /* CatsTableViewCell.h */,
+				15D570E921FA6D7C002F8633 /* CatsTableViewCell.m */,
 				15D570DB21FA4F86002F8633 /* Assets.xcassets */,
 				15D570DD21FA4F86002F8633 /* LaunchScreen.storyboard */,
 				15D570E021FA4F86002F8633 /* Info.plist */,
@@ -141,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15D570EA21FA6D7C002F8633 /* CatsTableViewCell.m in Sources */,
 				15D570D721FA4F83002F8633 /* ViewController.m in Sources */,
 				15D570E221FA4F86002F8633 /* main.m in Sources */,
+				15D570ED21FA70C0002F8633 /* PhotoData.m in Sources */,
 				15D570D421FA4F83002F8633 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
